@@ -21,7 +21,7 @@ int ThreeLetter(string[] array)    //Подсчет слов с кол-вом б
 
 int result = ThreeLetter(text);
 
-string[] newText = new string[result];
+string[] newText = new string[result];  //новый массив
 int j = 0;
 for (int i = 0; i < 5; i++)
 {
